@@ -1,4 +1,4 @@
-<h2 align="Center"><b><i>File-sharing-Bot</i></b></h2>
+<h2 align="Center"><b><i>File-Auto-Renamer-Bot</i></b></h2>
 <center><img src="https://files.catbox.moe/ufzpkn.jpg" ></center>
 <p align="center">
   <a href="https://www.python.org">
@@ -12,14 +12,14 @@
 
 ### Features
 
-- Fully customisable.
-- Customisable welcome & Forcesub messages.
-- More than one Posts in One Link.
-- Can be deployed on heroku ,koyeb and render.
-- Protect Content to Prevent Forwarding
-- Auto-Delete Files After a Configurable Time
-- 4 customisable force suscribe buttons
-- To check Separate force subscribe channel 
+- Set Metadata To File (eg:Tech_freak_tamil).
+- Set Custome Thumbnail Support 
+- Set User Separate Queue On ✅ off ❌
+- Set Upload File Format (eg: Video, document)
+- Fast Rename With Multiple files 
+- Set Token verify if Needed 
+- Add Admins inside bot if needed 
+- set Bot in public or private mode
 
 <details><summary><b> Upcoming Features :</b></summary>
  ## What’s Next Going to add
