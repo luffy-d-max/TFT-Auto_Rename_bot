@@ -17,22 +17,22 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
+    API_ID    = os.environ.get("API_ID", "25237912")
+    API_HASH  = os.environ.get("API_HASH", "e192dcc0926b4f447b8f28187f7e533b")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "5751033456"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
+    START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/if11gf.jpg")
     
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "").split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
@@ -43,7 +43,15 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 👋 
+    START_TXT = """Hello {🌟 Welcome to File Renamer Bot! 🌟
+
+🚀 What I Can Do:
+• Rename videos with thumbnails 📝 
+
+📌 How to Use:
+1. Send me a video or reply to one
+2. Click on the buttons below to choose what you want to do
+3. Follow the interactive menus} 👋 
 
 <blockquote>➻ This Is An Advanced Auto rename Bot.
 
@@ -53,14 +61,14 @@ class Txt(object):
 
 ➻ This Bot is only for Admin use other can use with low limitation </blockquote>
 
-<blockquote><b>Bot Is Made By :</b> @Tech_Freak_Tamil</blockquote>"""
+<blockquote><b>Bot Is Made By :</b> @orewa_luffy72</blockquote>"""
 
-    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='https://t.me/Tech_Freak_Tamil'>Auto Renamer bot ⚡</a>
+    ABOUT_TXT = f"""<blockquote><b>😈 My Name :</b> <a href='Davi'>Auto Renamer bot ⚡</a>
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Tech_Freak_Tamil'>TFT BOTS</a>
-<b>🛡️ Disscussion :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>
+<b>📢 Channel :</b> <a href='https://t.me/orewa_dragon'>TFT BOTS</a>
+<b>🛡️ Disscussion :</b> <a href='https://t.me/orewa_buggy'>TFT Discussion</a></blockquote>
     
 <blockquote><b>😈 Bot Made By :</b> <a href='https://t.me/+ov2l_dY_8jA3MGVl'>TFT Discussion</a></blockquote>"""
 
@@ -105,15 +113,15 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 For Example :-
 
-<code>By :- @Tech_Freak_Tamil</code>
+<code>By :- @orewa_luffy72</code>
 
-💬 For Any Help Contact @Tech_Freak_Tamil
+💬 For Any Help Contact @orewa_luffy72
 </blockquote>"""
 
 
-# Tech freak 
+# Davi
 # Don't Remove Credit!!!
-# Telegram Channel @Tech_freak_tamil
-# Developer @devilo7
+# Telegram Channel @Anime Tamil   
+# Developer @orewa_luffy72
 
 
