@@ -121,7 +121,7 @@ For Example :-
 
 # Davi
 # Don't Remove Credit!!!
-# Telegram Channel @Anime Tamil   
+# Telegram Channel @one piece sub   
 # Developer @orewa_luffy72
 
 
